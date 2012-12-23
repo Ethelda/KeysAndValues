@@ -20,3 +20,10 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
+
+gen
+out
+
+.idea
+bin
+libs
