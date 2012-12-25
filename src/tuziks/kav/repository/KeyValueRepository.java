@@ -1,12 +1,12 @@
-package tuziks.kav.kav.repository;
+package tuziks.kav.repository;
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
-import tuziks.kav.kav.DatabaseHelper;
-import tuziks.kav.kav.model.KeyValue;
+import tuziks.kav.DatabaseHelper;
+import tuziks.kav.model.KeyValue;
 
 import java.util.ArrayList;
 import java.util.List;

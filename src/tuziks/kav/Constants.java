@@ -1,4 +1,4 @@
-package tuziks.kav.kav;
+package tuziks.kav;
 
 /**
  * Created with IntelliJ IDEA.

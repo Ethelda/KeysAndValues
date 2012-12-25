@@ -1,4 +1,4 @@
-package tuziks.kav.kav.activity;
+package tuziks.kav.activity;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,9 +12,9 @@ import android.widget.TextView;
 import roboguice.activity.RoboActivity;
 import roboguice.inject.InjectView;
 import tuziks.kav.R;
-import tuziks.kav.kav.Constants;
-import tuziks.kav.kav.model.KeyValue;
-import tuziks.kav.kav.repository.KeyValueRepository;
+import tuziks.kav.Constants;
+import tuziks.kav.model.KeyValue;
+import tuziks.kav.repository.KeyValueRepository;
 
 import java.util.List;
 

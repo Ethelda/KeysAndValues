@@ -1,10 +1,10 @@
-package tuziks.kav.kav;
+package tuziks.kav;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
-import tuziks.kav.kav.repository.KeyValueRepository;
+import tuziks.kav.repository.KeyValueRepository;
 
 /**
  * Created with IntelliJ IDEA.
