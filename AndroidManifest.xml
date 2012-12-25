@@ -19,8 +19,7 @@
         </activity>
 
         <activity
-            android:name="tuziks.kav.kav.activity.Form"
-            android:label="@string/key_value_item">
+            android:name="tuziks.kav.kav.activity.Form">
             <intent-filter>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>

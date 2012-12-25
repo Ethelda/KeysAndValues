@@ -7,6 +7,7 @@ import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 import tuziks.kav.kav.DatabaseHelper;
 import tuziks.kav.kav.model.KeyValue;
+
 import java.util.ArrayList;
 import java.util.List;
 
