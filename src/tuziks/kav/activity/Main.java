@@ -5,10 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.*;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-import android.widget.TextView;
+import android.widget.*;
 import roboguice.activity.RoboActivity;
 import roboguice.inject.InjectView;
 import tuziks.kav.R;
@@ -27,6 +24,10 @@ public class Main extends RoboActivity {
 
     @InjectView(R.id.mylist)
     ListView listView;
+
+    @InjectView(R.id.btNewItem)
+    Button btNewItem;
+
     KeyValueRepository kvr;
 
     @Override
@@ -34,6 +35,7 @@ public class Main extends RoboActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         listView.setOnItemLongClickListener(new KeyValueListItemLongClickListener());
+        btNewItem.setOnClickListener(new AddNewOnclickListener());
         kvr = new KeyValueRepository(this);
     }
 
@@ -111,6 +113,14 @@ public class Main extends RoboActivity {
             twItemId.setText(Long.toString(kv.getId()));
 
             return v;
+        }
+    }
+
+
+    private class AddNewOnclickListener implements View.OnClickListener {
+        @Override
+        public void onClick(View view) {
+            startActivity(new Intent(Main.this, Form.class));
         }
     }
 }
